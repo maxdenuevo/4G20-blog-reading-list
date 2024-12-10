@@ -20,7 +20,7 @@ A minimalist version of the [Star Wars Databank](https://www.starwars.com/databa
 
 - Browse characters, vehicles, and planets from the Star Wars universe
 - Detailed view for each entity with comprehensive information
-- "Read Later" functionality to save items for future reference
+- "Favorites" functionality to save items for future reference
 - Responsive design with Bootstrap components
 - Search functionality with real-time results
 - Data persistence using localStorage (optional feature)
@@ -60,7 +60,7 @@ This project uses the [SWAPI.tech](https://www.swapi.tech/documentation) API to 
 ```
 src/
 ├── components/
-│   ├── Navbar.jsx          # Navigation and search functionality
+│   ├── Navbar.jsx         # Navigation and search functionality
 │   ├── Card.jsx           # Reusable card component for entities
 │   ├── DetailView.jsx     # Detailed view component
 │   └── SearchResults.jsx  # Search results display
@@ -68,12 +68,12 @@ src/
 │   └── AppContext.jsx     # Global state management
 ├── pages/
 │   ├── Characters.jsx     # Characters listing page
-│   ├── Vehicles.jsx      # Vehicles listing page
-│   ├── Planets.jsx       # Planets listing page
-│   ├── Favorites.jsx     # Saved items page
-│   └── Details.jsx       # Entity details page
-├── App.jsx               # Main application component
-└── main.jsx             # Application entry point
+│   ├── Vehicles.jsx       # Vehicles listing page
+│   ├── Planets.jsx        # Planets listing page
+│   ├── Favorites.jsx      # Saved items page
+│   └── Details.jsx        # Entity details page
+├── App.jsx                # Main application component
+└── main.jsx               # Application entry point
 ```
 
 ## Contributing

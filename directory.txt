@@ -1,0 +1,30 @@
+.
+├── LICENSE.md
+├── README.md
+├── SWAPIdocumentation.md
+├── directory.txt
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── components
+│   │   ├── Card.jsx
+│   │   ├── DetailView.jsx
+│   │   ├── Navbar.jsx
+│   │   └── SearchResults.jsx
+│   ├── context
+│   │   └── AppContext.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages
+│       ├── Characters.jsx
+│       ├── Details.jsx
+│       ├── Favorites.jsx
+│       ├── Planets.jsx
+│       └── Vehicles.jsx
+└── vite.config.js
+
+5 directories, 23 files
